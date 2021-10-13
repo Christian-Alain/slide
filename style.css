@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f7f7f7;
+}
+
+.container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* width: 40vw; */
+    width: 50vw;
+    height: 100vh;
+    background: white;
+    margin: auto;
+   box-shadow: 5px 5px 20px #000;
+}
+.slider1{
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    background: white;
+}
+
+.element img{
+    width: 150px;
+    border: 2px solid #f7f7f7;
+    border-radius: 100%;
+}
+.title p{
+    padding-top: 15px;
+}
+
+.title h2{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+/* #myslider, #saib, #superhero, #dadi{
+    display: none;
+} */
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 50px;
+    
+
+}
+.bouton img{
+    /* margin-left: 100px; */
+    /* border-radius: 100%;
+    border: 1px solid #000; */
+    width: 70px;
+    padding: 10px;
+    cursor: pointer;
+}
+.bouton #previous{
+    transform: rotate(180deg);
+}
+/* .bouton #previous{
+    border-radius: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+} */

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>slide de description des developpeurs</title>
+    </head>
+    <body onload="partDefaut()">
+        <!-- <h1>Silder de description</h1> -->
+        <div class="container">
+                <div class="slider1" id="myslide">
+                    <div class="element">
+                        <img src="icons/prog.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h2>Christian Alla</h2>
+                        <h3>developpeur Web front-end</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo omnis similique ad hic quibusdam, laudantium numquam natus quas. Nisi nesciunt nobis rem quia placeat qui quidem quas amet nulla? Maiores.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="slider1" id="superhero">
+                    <div class="element">
+                        <img src="icons/user.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h2>Super Hero</h2>
+                        <h3>developpeur Web front-end</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo omnis similique ad hic quibusdam, laudantium numquam natus quas. Nisi 
+
+                        </p>
+                    </div>
+                </div>
+                <div class="slider1" id="dadi">
+                    <div class="element">
+                        <img src="icons/avatar.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h2>Dadi Delegué</h2>
+                        <h3>developpeur Web front-end & Back-End</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo omnis similique ad hic quibusdam, laudantium numquam natus quas. Nisi nesciunt nobis rem quia placeat qui quidem quas amet nulla? Maiores.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="slider1" id="saib">
+                    <div class="element">
+                        <img src="icons/avat.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h2>Kone Saib</h2>
+                        <h3>developpeur Web front-end & Infographe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo omnis similique ad hic quibusdam, laudantium numquam natus quas. Nisi nesciunt nobis rem quia placeat qui quidem quas amet nulla? Maiores.
+
+                        </p>
+                    </div>
+                </div>
+               
+                <div class="bouton">
+                    <img src="icons/right.png" id="previous" onclick="ChangeSlide(-1)" alt="">
+                    <img src="icons/right.png" id="next" onclick="ChangeSlide(1)" alt="">
+                    <!-- <div id="previous" >&#60;&#60;</div>
+                    <div id="next" onclick="slider()">&#62;&#62;</div> -->
+                </div>
+        
+        </div>
+        
+
+
+        <!-- <script>
+            var slide = new Array("foret-peuplier.jpg", "paysage-montagne.jpg", "chemin-automne.jpg", "prairie-alpes.jpg");
+var numero = 0;
+
+function ChangeSlide(sens) {
+    numero = numero + sens;
+    if (numero < 0)
+        numero = slide.length - 1;
+    if (numero > slide.length - 1)
+        numero = 0;
+    document.getElementById("slide").src = slide[numero];
+}
+        </script> -->
+        <script src="app.js"></script>
+    </body>
+</html>
